@@ -1,6 +1,6 @@
 function getCustomer(id) {
     console.log("get customer informations");
-    return new Promise((resolvev, reject) => {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve({ email: "mo1@gmail", name: "mohamed", id: 1 })
         }, 3000);
